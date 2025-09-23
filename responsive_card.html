@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .card-container {
+            width: 90vw;
+            /* 90% of the viewport width */
+            height: 50vh;
+            /* 50% of the viewport height */
+            background-color: #ffffff;
+            margin: 5vh auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+        .card {
+                background: #fff;
+                border-radius: 12px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                overflow: hidden;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    }
+        .card:hover {
+            /*transform: translateY(-5px);*/
+            border: 3px solid blue;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            }
+
+        .card img {
+            display:block;
+            margin: 0 auto;
+            width: 80%;
+            height: 180px;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s ease, border 0.3s ease;
+        }
+        .card img:hover{
+        border: 5px groove aqua}
+
+        .card- content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card {
+            width: 30%;
+            background: steelblue;
+            padding: 20px;
+            margin: 10px;
+            color: rgb(212, 226, 154);
+            box-shadow: aquamarine;
+            border-radius: 2px;
+            text-align: center;
+        }
+
+        .card-img {
+            width: 75%;
+            height: auto;
+        }
+
+        .card-img:hover {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+            text-align: center;
+            flex-grow: 1;
+            }
+
+        .content-section .card h2 {
+            font-size: 1.5 rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            margin: 20px;
+        }
+
+        .content-section .card p {
+            font-size: 16px;
+            padding: 0px 10px;
+            margin-bottom: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15 px;
+            background: rgb(77, 125, 202);
+            color: aliceblue;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgb(98, 98, 232);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: #e0f7fa;
+            }
+
+        }
+        .card-img {
+            width: 75%;
+            height: auto;
+        }
+
+        .card-img:hover {
+            width: 100%;
+            height: auto;
+        }
+
+
+        @media (max-width: 768px) {
+            body {
+                background-color: #e0f7fa;
+            }
+        }
+        .card-img {
+            width: 75%;
+            height: auto;
+        }
+
+        .card-img:hover {
+            width: 100%;
+            height: auto;
+        }
+
+
+        /* Desktop (≥1025px) */
+        @media (min-width: 1025px) {
+            body {
+                background-color: burlywood;
+            }
+        }
+        .card-img {
+            width: 75%;
+            height: auto;
+        }
+
+        .card-img:hover {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content-section">
+            <div class="card">
+                <img src="E:\B-learn academy\html_python full stack\rose_flower.jpg" alt="">
+                <h2>Card 1</h2>
+                <p>This is description of card1. It adjusts beautifully on the screen</p>
+            </div>
+            <div class="card">
+                <img src="E:\B-learn academy\html_python full stack\sunflower.jpeg" alt="">
+                <h2>Card 2</h2>
+                <p>This is description of card2. It adjusts beautifully on the screen</p>
+            </div>
+            <div class="card3">
+                <img src="E:\B-learn academy\html_python full stack\flower.jpeg" alt="">
+                <h2>Card 3</h2>
+                <p>This is description of card2. It adjusts beautifully on the screen</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2><strong>Event Promotional Video</strong></h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u_qFlTu7HTw">
+    </iframe>
+    <h4>Event Registration</h4>
+    <form action="submit.php" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="Department">Department</label><br>
+        <select name="Department" id="Department">
+            <option value="cs">Computer Science</option>
+            <option value="MechEng">Mechanical Engineering</option>
+            <option value="ChemEng">Chemical Engineering</option>
+            <option value="ece">electronics and communication</option>
+            <option value="civil">Civil Engineering</option>
+            <option value="IT">Information Technology</option>
+        </select>
+        <br><br>
+        <label>Gender:</label><br>
+
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female
+
+        <br><br>
+        <label for="events">choose events</label><br>
+        <input type="checkbox" id="hackathon" name="events" value="Hackathon">
+        <label for="hackathon">Hackathon</label><br>
+
+        <input type="checkbox" id="uiux" name="events" value="UI/UX Design">
+        <label for="uiux">UI/UX Design</label><br>
+
+        <input type="checkbox" id="debugging" name="events" value="Debugging">
+        <label for="debugging">Debugging</label><br><br>
+        <button type="register">Register</button>
+
+    </form>
+
+</body>
+
+</html>

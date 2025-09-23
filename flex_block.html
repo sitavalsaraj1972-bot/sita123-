@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            
+            
+            background-color:blueviolet;
+            color:rgb(229, 237, 16)
+
+        }
+        .container2{
+            display:inline-flex;
+            
+            flex-wrap:wrap;
+            
+            align-content:centre;
+            gap: 10px;
+            
+            background-color: rgb(250, 234, 4);
+            /*padding: 10px;*/
+            border: 2px solid black;
+            color:blue;
+        }
+        .item{
+             background: lightcoral;
+              color: white;
+              padding: 20px;
+              
+              font-weight: bold;
+              width: 150px;      /* fixed width so wrapping is visible */
+              text-align: center;
+              
+
+
+        }
+    </style>
+</head>
+<body>
+  <div class="container1">
+    <div>orange</div>
+    <div>apple</div>
+    <div>grapes</div>
+    <!-- <div>pineapple</div> 
+    <div>pomegranate</div>
+    <div>orange</div>
+    <div>custard apple</div> -->
+  </div> 
+  <div class="container2">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+    <div class="item">Item 7</div>
+    <div class="item">Item 8</div>
+  </div> 
+</body>
+</html>
